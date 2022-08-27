@@ -308,7 +308,7 @@ margin-top: auto;
     display: flex;
     justify-content: space-between;
     color: rgb(255, 255, 255);
-    margin-top: 10%
+ 
 }
 
 .social-icon a{
@@ -348,7 +348,13 @@ color: #fb3f3f;}
 
 
     }
-  
+  .card,.project-card{
+    width: 30em;
+  }
+  .footer{
+    text-align: center;
+    margin-top: 50%;
+  }
     #container{
         margin-left:  3%; 
     } 
@@ -387,8 +393,8 @@ color: #fb3f3f;}
         font-size:1.5em ;
     }
     .content{
-        flex-direction: column;
-        align-items: center;
+        flex-direction:column;
+        align-items:center;
     }
       body{
             font-size: .9em;
@@ -416,7 +422,12 @@ margin-bottom: 40px;
         #hm{
             width: 20%;
         }
-      
+        .contact{
+            height: 50vh;
+        }
+        .footer{
+            margin-top: 53%;
+        }
         .navbar-mobile ul li a:hover{
 width: 20%;
         }
@@ -452,17 +463,38 @@ margin-bottom: 40px;
 
     @media (max-width:641px){
         body{
-            font-size: .7em;
+            font-size: 1em;
+        }
+        #paragraph{
+            font-size:1.5em;
+            font-weight: 400;
+        }
+        #hm{
+            width: 20%;
+        }
+      
+        .navbar-mobile ul li a:hover{
+width: 20%;
+        }
+        .ul{
+            padding-left: 0%
+        }
+        .social-icons{
+            margin-left: 0%
+        }
+        .social-icons a{margin-left: 1px}
+        body{
+            font-size: .9em;
         }
         .main h2{
-            font-size:1.3em ;
+            font-size:1.5em ;
     
         }
         .main h3{
-            font-size: 1.2em;
+            font-size: 1.4em;
         }
         .title{
-            font-size:2em ;
+            font-size:2.2em ;
         }
         .main-btn{
             font-size: 1.1em;
