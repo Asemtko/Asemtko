@@ -344,8 +344,11 @@ color: #fb3f3f;}
 
 
 @media (max-width:1023px){
+    #logo{
+        font-size:2em
+    }
     body{margin-left: -20px;
-
+font-size: 1.5em;
 
     }
   .card,.project-card{
@@ -358,9 +361,7 @@ color: #fb3f3f;}
     #container{
         margin-left:  3%; 
     } 
-    #logo{
-        font-size: 1em;
-    }
+    
     #services{
         height: 100vh;
     }
@@ -396,9 +397,7 @@ color: #fb3f3f;}
         flex-direction:column;
         align-items:center;
     }
-      body{
-            font-size: .9em;
-        }
+      
         .main h2{
             font-size:1.5em ;
     
@@ -438,9 +437,7 @@ width: 20%;
             margin-left: 0%
         }
         .social-icons a{margin-left: 1px}
-        body{
-            font-size: .9em;
-        }
+      
         .main h2{
             font-size:1.5em ;
     
@@ -462,9 +459,7 @@ margin-bottom: 40px;
 
 
     @media (max-width:641px){
-        body{
-            font-size: 1em;
-        }
+    
         #paragraph{
             font-size:1.5em;
             font-weight: 400;
